@@ -1,0 +1,230 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.body-prev {
+	font-family: 'Source Serif Pro', serif;
+	background-color: #ebebeb;
+
+	
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	font-family: 'Source Serif Pro', serif;
+
+
+		background-image: url('../images/bg.jpg');
+		background-repeat: no-repeat;
+	
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+		
+		
+a {
+	color: #e80057;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e80057;
+	text-decoration: underline;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+}
+
+.color {
+	color: #e80057;
+	font-weight: bold;
+}
+.box2 {
+	background-color: #ededed;
+	padding: 20px;
+}
+
+.box{
+	padding: 0px 20px 20px 20px;
+	display: none;
+	margin-top: 0px;
+	border: 0px solid #000;
+	border-radius: 5px;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+.prof1{
+	font-size: 20px;
+	color: #e80057;
+    line-height: 10px;
+}
+	
+
+	
+
+
+
+.prof2{ background: #951c55; }
+.prof3{ background: #951c55; }
+
+.prof4{ background: #951c55; }
+.prof5{ background: #951c55; }
+.prof6{ background: #951c55; }
+
+.heading {
+	background-color: #2a6fb6;
+	color: white;
+	width: 100%;
+}
+
+.heading-pad {
+	padding: 30px 0 30px 0;
+}
+
+.heading-head {
+	width: 90%;
+	margin: auto;
+}
+
+.content {
+	width: 90%;
+	height: 100%;
+background:rgba(255, 255, 255, 0.8);
+	margin: auto;
+}
+.content-pad {
+	padding: 30px;
+}
+
+.wrapper {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.column-a {
+	float: left;
+}
+
+.column-b {
+	float: left;
+}
+
+.column-b-pad {
+	padding: 0px 20px 0px 20px;
+}
+	
+.small {
+	font-size: 12px;
+	color: #7c7c7c;
+	line-height: 18px;
+}
+	
+	
+	
+	
+	
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+	background-color: #232323;
+	color: #e80057;
+}
+	
+.footer-pad {
+text-align: right;	
+	width: 90%;
+}	
+	
+	.verbiage {
+		font-size: 14px;
+	}
+	
+select.custom-dropdown {
+ -webkit-appearance: none;  /*REMOVES DEFAULT CHROME & SAFARI STYLE*/
+ -moz-appearance: none;  /*REMOVES DEFAULT FIREFOX STYLE*/
+ border: 0 !important;  /*REMOVES BORDER*/
+ font-family: 'Source Serif Pro', serif;
+ color: #fff;
+ -webkit-border-radius: 0px;
+ border-radius: 0px;
+ font-size: 14px;
+ padding: 10px;
+ cursor: pointer;
+ background: #3ab0f4 url(images/drop-down-arrow.png) no-repeat right center;
+ background-size: 40px 37px; /*TO ACCOUNT FOR @2X IMAGE FOR RETINA */
+}
+	
+	
+select.custom-dropdown2 {
+ font-family: 'Source Serif Pro', serif;
+ padding: 8px;
+}
+
+	
+	
+	
+	
+	
+	
+@media screen and (max-width: 1155px) {
+	 
+
+.column-a {
+	float: none;
+	text-align: center;
+}
+
+.column-b {
+	float: none;
+	text-align: center;
+	margin-top: 22px;
+}
+	
+.prof1 {
+
+    line-height: 26px;
+}
+	
+	
+	
+.box {
+    padding: 0px 20px 20px 0px;
+}
+
+.verbiage {
+padding-bottom: 80px;
+	
+}
+
+}
+
+@media screen and (max-width: 812px) {
+
+img {
+	
+	width: 100%;
+}	
+select.custom-dropdown2 {
+width: 100%;
+}
+
+	
+}
+
+	
